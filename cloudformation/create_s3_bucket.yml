@@ -1,8 +1,8 @@
 Parameters:
-  # New Bucket name
   MyBucketName:
     Description: Existing Bucket name
     Type: String
+    Default: promote-production
 Resources:
 WebsiteBucket:
   Type: AWS::S3::Bucket
